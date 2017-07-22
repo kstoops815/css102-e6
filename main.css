@@ -1,6 +1,6 @@
 /*Card Styling*/
-
 .product {
+	margin: 1%;
 	width: 400px;
 	border: 2px solid slategray;
 }
@@ -29,4 +29,12 @@
 	font-family: 'Lemonada', cursive;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+
+/*CARD LAYOUT*/
+#product-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
