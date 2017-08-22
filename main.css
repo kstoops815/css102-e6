@@ -59,3 +59,7 @@
 	position: absolute;
 	top: 90px;
 }
+
+.border-funsies {
+	border: purple solid 3px;
+}
